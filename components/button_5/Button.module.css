@@ -1,0 +1,31 @@
+.custom_button {
+	text-decoration: none;
+	color: #F44336;
+	font-family: sans-serif;
+	font-size: 40px;
+	border: 3px solid #F44336;
+	padding: 40px 80px;
+	position: relative;
+	transition: all 1s;
+	overflow: hidden;
+}
+
+.custom_button:before {
+	content: 'YEAH!';
+	color: white;
+	background-color: #F44336;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	transform: translateY(-100%);
+	transition:all .5s;
+}
+
+.custom_button:hover:before {
+	transform: translateY(0);
+}

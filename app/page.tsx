@@ -2,6 +2,7 @@ import Button_1 from '@/components/button_1/Button';
 import Button_2 from '@/components/button_2/Button';
 import Button_3 from '@/components/button_3/Button';
 import Button_4 from '@/components/button_4/Button';
+import Button_5 from '@/components/button_5/Button';
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Button_2 />
       <Button_3 />
       <Button_4 />
+      <Button_5 />
     </div>
   );
 }
