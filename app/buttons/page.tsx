@@ -17,7 +17,7 @@ import Button_15 from '@/components/button_15/Button';
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center my-8 space-y-16">
+    <div className="flex flex-row flex-wrap items-center justify-center space-x-16 space-y-16">
       <Button_1 href='/' text='Button 1' />
       <Button_2 href='/' text='Button 2' />
       <Button_3 href='/' text='Button 3' />
