@@ -1,0 +1,40 @@
+I'm developing a nextjs project where I use tailwind css. I found that in the following code, only the first a tag was positioned correctly (items-center jusityfy-center), the rest of the a tag are all positioned at the bottom right corner of its container. I'm hoping all the a tag be placed center vertically and horizontally, why is that?
+
+export default function Page() {
+  return (
+    <div className="flex flex-row flex-wrap items-center justify-center space-x-16 space-y-16">
+      <a href="/" style={{
+        textDecoration: "none",
+        fontSize: "40px",
+        border: "3px solid #351435",
+        padding: "40px 80px",
+      }}>
+        button
+      </a>
+      <a href="/" style={{
+        textDecoration: "none",
+        fontSize: "40px",
+        border: "3px solid #351435",
+        padding: "40px 80px",
+      }}>
+        button
+      </a>
+      <a href="/" style={{
+        textDecoration: "none",
+        fontSize: "40px",
+        border: "3px solid #351435",
+        padding: "40px 80px",
+      }}>
+        button
+      </a>
+      <a href="/" style={{
+        textDecoration: "none",
+        fontSize: "40px",
+        border: "3px solid #351435",
+        padding: "40px 80px",
+      }}>
+        button
+      </a>
+    </div>
+  );
+}
